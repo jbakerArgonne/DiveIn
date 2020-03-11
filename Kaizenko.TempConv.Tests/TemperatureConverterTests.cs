@@ -12,7 +12,7 @@ namespace Kaizenko.TempConv.Tests
             TemperatureConverter tempConverter = new TemperatureConverter();
            //ACT
             double tempInF =  tempConverter.ConvertCtoF(0);
-           //ASSERT
+            //ASSERT
            Assert.AreEqual(32, tempInF);
         }
 
