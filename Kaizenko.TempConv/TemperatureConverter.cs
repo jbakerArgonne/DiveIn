@@ -8,6 +8,7 @@ namespace Kaizenko.TempConv
 {
     public class TemperatureConverter
     {
+        //Comments
         public double ConvertCtoF(double tempInC)
         {
             double tempInF = tempInC * 9 / 5 + 32;
